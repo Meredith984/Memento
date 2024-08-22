@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+        <title>Memento</title>
+        <!--Link Logo pestaña-->
+        <link rel="stortcut icon"  href="../img/logo.png" />
+        <!--Link Logo pestaña-->
+		
+		<link rel="stylesheet" href="styles.css" />
+
+		    <!--Link css-->
+			<link rel="stylesheet" href="../css/nav.css">
+			<link rel="stylesheet" href="../css/style.css">
+			<link rel="stylesheet" href="../css/footer.css">
+			<!--end Link css-->
+		
+			<!--Link Google Fonts-->
+			<!--
+				Lora
+				Poiret One
+				Berkshire Swash
+				Yeseva One
+				Katibeh
+			-->
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+			<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+			<link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Katibeh&family=Lora:wght@500&family=Poiret+One&family=Yeseva+One&display=swap" rel="stylesheet">
+			<!--End Link Google Fonts-->
+	</head>
+	<body>
+
+		<div class="contenedor">
+            <!--menu-->
+            <div class="menu-nav">
+                <a href="../index.html" class="nav_logo"><img class="nav_logo-img" src="../img/logo.png" width="60px" alt=""><span class="nav_logo-texto">Memento</span></a>
+                
+                <nav class="nav_links">
+                    <ul >
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../html/nosotros.html">Nosotros</a></li>
+                        <li class="active"><a href="../html/productos.html">Productos</a></li>
+                        <li><a  href="../html/contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                
+                
+                <div class="menu-hamburger">
+                    <div class="bars__menu">
+                        <span class="line1__bars-menu"></span>
+                        <span class="line2__bars-menu"></span>
+                        <span class="line3__bars-menu"></span>
+                    </div>    
+                </div>            
+            </div>
+        </div>
+
+		
+		<div class="center fontColor1 margin-section">
+			<div class="contenedor">
+				<main>
+					<div class="container-img">
+						<img src="../img/productos/producto3.jpeg" alt="">
+					</div>
+					<div class="container-info-product">
+						<div class="container-title">Muñeco Peluche Amigurumi de Oso Tejido en Algodón 24cm</div>
+						<div class="container-price">
+							<span>00.00</span>
+						</div>
+		
+						<div class="container-details-product">
+							<div class="form-group">
+								<label for="colour">Color</label>
+								<select name="colour" id="colour">
+									<option disabled selected value="">
+										Escoge una opción
+									</option>
+									<option value="rojo">Rojo</option>
+									<option value="blanco">Blanco</option>
+									<option value="beige">Beige</option>
+								</select>
+							</div>
+						</div>
+		
+						<div class="container-add-cart">
+							<div class="container-quantity">
+								<!---->
+								<input
+									type="number"
+									placeholder="1"
+									value="1"
+									min="1"
+									class="input-quantity"
+								/>
+								<div class="btn-increment-decrement">
+									<i class="fa-solid fa-chevron-up" id="increment"></i>
+									<i class="fa-solid fa-chevron-down" id="decrement"></i>
+								</div>
+							</div>
+							<button class="btn-add-to-cart">
+								Calcular Precio
+							</button>
+							<div class="container-quantity">
+								<input type="text" class="input-quantity">
+							</div>
+						</div>
+		
+						<div class="container-description">
+							<div class="title-description">
+								<h4>Materiales y Elaboración</h4>
+								<i class="fa-solid fa-chevron-down"></i>
+							</div>
+							<div class="text-description">
+								<p>
+									<ul>
+										<i class="fa-solid fa-star fa-2xs"></i>  Tejidos a mano en hilo de algodón hipoalergénico. <br>
+										<i class="fa-solid fa-star fa-2xs"></i>  Los ojos y narices son colocados con sistema de seguridad. <br>
+										<i class="fa-solid fa-star fa-2xs"></i>  Relleno con napa siliconada para una mayor suavidad. <br>
+									</ul>
+								</p>
+							</div>
+						</div>
+		
+						<div class="container-additional-information">
+							<div class="title-additional-information">
+								<h4>Recomendaciones de Lavado</h4>
+								<i class="fa-solid fa-chevron-down"></i>
+							</div>
+							<div class="text-additional-information hidden">
+								<p> <i class="fa-solid fa-star fa-2xs"></i>  Lavar exclusivamente a mano y con agua fría. <br>
+									<i class="fa-solid fa-star fa-2xs"></i>  Usar jabón para piezas delicadas. <br>
+									<i class="fa-solid fa-star fa-2xs"></i>  Evitar exprimir, centrifugar o secar en máquina. <br>
+									<i class="fa-solid fa-star fa-2xs"></i>  Dejar secar al aire y de forma extendida. No exponer la pieza al sol. <br>
+								</p>
+							</div>
+						</div>
+		
+						<div class="container-social">
+							<span>Compartir</span>
+							<div class="container-buttons-social">
+								<a href="#"><i class="fa-solid fa-envelope"></i></a>
+								<a href="#"><i class="fa-brands fa-facebook"></i></a>
+								<a href="#"><i class="fa-brands fa-twitter"></i></a>
+								<a href="#"><i class="fa-brands fa-instagram"></i></a>
+								<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+							</div>
+						</div>
+					</div>
+				</main>
+			</div>
+		</div>
+
+		<div class="center fontColor1">
+			<div class="contenedor">
+				<section class="container-related-products">
+					<h2>Productos Relacionados</h2>
+					<div class="card-list-products">
+						<div class="card">
+							<div class="card-img">
+								<img
+									src="../img/productos/producto2.jpeg"
+									alt="producto-1"
+								/>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img
+									src="../img/productos/producto5.jpg"
+									alt="producto-4"
+								/>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img
+									src="../img/productos/producto4.png"
+								/>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-img">
+								<img
+									src="../img/productos/producto5.jpg"
+									alt="producto-3"
+								/>
+							</div>
+						</div>
+					</div>
+				</section>
+				
+			</div>
+		</div>
+
+		  <!--footer-->
+		  <div class=" cont">
+			<footer>
+				<div class="container_2">
+					<div class="sec footer-nosotros">
+						<h2 class="footer-nosotros_title textoAzul">
+							NOSOTROS
+						</h2>
+						<p class="footer-nosotros_txt">
+							Somos una empresa dedicada a la venta de productos para el cuidado del ser humano y los animales.
+						</p>
+						<ul class="footer-nosotros_social">
+							<li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+							<li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+						</ul>
+					</div>
+					<div class="sec footer-links ">
+						<h2 class="footer-links_title textoAzul">Soporte</h2>
+						<ul>
+							<li><a href="#"><i class="fa-solid fa-angle-right"></i> Ayuda</a></li>
+							<li><a href="#"><i class="fa-solid fa-angle-right"></i> Libro de Reclamaciones</a></li>
+						</ul>
+					</div>
+		
+					<div class="sec footer-links ">
+						<h2 class="footer-links_title textoAzul">Tienda</h2>
+						<ul>
+							<li><a href="#"><i class="fa-solid fa-angle-right"></i> Animales</a></li>
+							<li><a href="#"><i class="fa-solid fa-angle-right"></i> Personajes</a></li>
+							<li><a href="#"><i class="fa-solid fa-angle-right"></i> Accesorios</a></li>
+							<li><a href="#"><i class="fa-solid fa-angle-right"></i> Personalizados</a></li>
+						</ul>
+					</div>
+		
+					<div class="sec footer-contac">
+						<h2 class="footer-contac_title textoAzul">Contacto</h2>
+						<ul class="footer-contac_info">
+							<li>
+								<span><i class="fa-solid fa-phone"></i></span><p><a href="tel:+1 984 876 824">984 876 824</a></p>
+							</li>
+							<li>
+								<span><i class="fa-solid fa-envelope"></i></span><p><a href="mailto:edithbartolo984@gmail.com">edithbartolo984@gmail.com</a></p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+			<div class="copyrightText">
+				<p>
+					© 2023 Todos los derechos reservados. Sitio web desarrollado por: Bartolo Edith
+				</p>
+			</div>
+		</div>
+
+		<script
+			src="https://kit.fontawesome.com/81581fb069.js"
+			crossorigin="anonymous"
+		></script>
+		<script src="index.js"></script>
+
+		    <!--Link js-->
+			<script src="../js/nav.js"></script>
+			<!--swiper_Slider-->
+			<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+			
+			<script>
+				const swiper = new Swiper('.swiper', {
+					// Optional parameters
+					direction: 'horizontal',
+					loop: true,
+				  
+					// If we need pagination
+					pagination: {
+					  el: '.swiper-pagination',
+					  clickable:true,
+					},
+					// Navigation arrows
+					navigation: {
+					  nextEl: '.swiper-button-next',
+					  prevEl: '.swiper-button-prev',
+					},
+				  
+				  });
+			</script>
+	
+				<!-- Iconos -->
+		<script src="https://kit.fontawesome.com/695b5ff2c0.js" crossorigin="anonymous"></script>
+	
+		<!--end Link js-->
+	</body>
+</html>
